@@ -1,6 +1,14 @@
 .logo{
     font-size: 2.2rem;
-    color: rgb(220, 21, 21);
+    /* color: rgb(220, 21, 21); */
+    color: rgb(144, 171, 9);
+}
+.custom-font-size{
+    font-size: 2.2rem;
+    color: rgb(65, 65, 65);
+}
+.custom-primary-color{
+    color: rgb(144, 171, 9);
 }
 .custom-bg{
     background-color: rgba(240, 236, 236, 0.37);
@@ -13,5 +21,5 @@
 
 }
 .nav-items a:hover{
-    color: rgb(220, 21, 21) !important;
+    color: rgb(144, 171, 9) !important;
 }
