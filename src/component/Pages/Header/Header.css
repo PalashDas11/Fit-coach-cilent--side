@@ -8,7 +8,11 @@
     color: rgb(65, 65, 65);
 }
 .custom-primary-color{
-    color: rgb(144, 171, 9);
+    color: rgb(144, 171, 9) !important;
+}
+.navbar-bg-custom{
+    background-color: rgba(57, 57, 57, 0.986);
+    
 }
 .custom-bg-primary{
     background-color: rgb(144, 171, 9);;
@@ -19,7 +23,7 @@
 }
 .nav-items a{
     margin-left: 5px;
-   color: black ;
+   color: white !important;
    font-weight: 600;
    font-size: 1.2rem;
 

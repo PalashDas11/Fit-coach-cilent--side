@@ -13,7 +13,7 @@ import Register from './component/Pages/Register/Register';
 function App() {
   return (
     <div className= "custom-bg">
-      <Header></Header>
+    <Header></Header>
       <Routes>
         <Route path="/" element ={<Home></Home>}></Route>
         <Route path="/services" element ={<Services></Services>}></Route>
