@@ -20,7 +20,7 @@ const Header = () => {
                             <Nav.Link href="#services" as={Link} to ="/services">Services</Nav.Link>
                             <Nav.Link href="#blog" as={Link} to="/blog">Blog</Nav.Link>
                             <Nav.Link href="#about" as={Link} to ="/about">About</Nav.Link>
-                            <Nav.Link href="#login" as={Link} to ="/login">Login</Nav.Link>
+                            <Nav.Link href="#login" as={Link} to ="/login" className='custom-btn2 '>Login</Nav.Link>
                             
 
                         </Nav>
