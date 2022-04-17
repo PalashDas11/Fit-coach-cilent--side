@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Service = ({ service }) => {
     const { name, title, img, price } = service
-    console.log(service);
+    // console.log(service);
     return (
         <div className='col-sm-12 col-md-3 d-block mx-auto'>
             <Card style={{ width: '18rem' }}>
