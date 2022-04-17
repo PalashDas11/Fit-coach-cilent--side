@@ -16,7 +16,7 @@ const Service = ({ service }) => {
                     </Card.Text>
                     <div className='d-flex align-items-center justify-content-between'>
                         <h5>${price}<small>/month</small></h5>
-                        <Link to="/login" className='custom-btn'>Enroll Now</Link>
+                        <Link to="/checkout" className='custom-btn'>Enroll Now</Link>
                     </div>
                 </Card.Body>
             </Card>

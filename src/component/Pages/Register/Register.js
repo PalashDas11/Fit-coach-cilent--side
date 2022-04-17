@@ -5,7 +5,7 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     return (
-        <div className='login-form container mx-auto'>
+        <div className='login-form container mx-auto py-4'>
         
         <h2 className=' text-center mt-2'>Please Register</h2>
         <Form>

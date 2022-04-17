@@ -18,7 +18,7 @@
     background-color: rgb(144, 171, 9) ;
 }
 .custom-btn:hover{
-    color: white !important;
+    color: rgb(144, 171, 9)  !important;
     background-color:transparent ;
     border:1px solid rgb(144, 171, 9) ;
 }
@@ -31,7 +31,7 @@
     background-color: rgb(144, 171, 9) ;
 }
 .custom-btn2:hover{ 
-    color: white ;
+    color: rgb(144, 171, 9) ;
     background-color:transparent ;
     
     
