@@ -18,9 +18,9 @@
     background-color: rgb(144, 171, 9) ;
 }
 .custom-btn:hover{
-    color: white ;
+    color: rgb(144, 171, 9);
     background-color:transparent ;
-    border:1px solid rgb(144, 171, 9) 
+    border:1px solid rgb(144, 171, 9) ;
 }
 .custom-btn2{ 
     text-align: center;
