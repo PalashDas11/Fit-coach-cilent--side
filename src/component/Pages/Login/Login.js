@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
 import './Login.css'
-import { Button, Form, ToastContainer } from 'react-bootstrap';
+import { Button, Form,   } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Load from '../Load/Load';
 
 
@@ -47,6 +49,17 @@ const Login = () => {
 
         signInWithEmailAndPassword(email, password);
     }
+    // reset password 
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Sent email');
+        }
+        else{
+            toast('please enter your email address');
+        }
+    }
     return (
         <div className='login-form container mx-auto py-4'>
 
@@ -64,13 +77,15 @@ const Login = () => {
                         Login
                     </Button>
                 </div>
+                
 
             </Form>
 
             <p>New to Genius Car? <Link to="/register" className='text-primary pe-auto text-decoration-none'>Please Register</Link> </p>
-            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none'>Reset Password</button> </p>
+            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             <SocialLogin></SocialLogin>
-            <ToastContainer />
+            <ToastContainer/>
+            
         </div>
     );
 };
