@@ -47,6 +47,7 @@ const Register = () => {
         navigate('/home');
     }
     return (
+        <div className='custom-bg'>
         <div className='register-form container  py-4'>
 
             <h2 className=' text-center mt-2'>Please Register</h2>
@@ -71,6 +72,7 @@ const Register = () => {
             <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none'>Reset Password</button> </p>
             <SocialLogin></SocialLogin>
             <ToastContainer />
+        </div>
         </div>
     );
 };

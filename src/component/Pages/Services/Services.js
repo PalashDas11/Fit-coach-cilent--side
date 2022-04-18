@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Service from '../Service/Service';
 const services = [
     {id : 1, name:'Core Strength', title:'It may seem like a no-brainer, but doing core exercises builds core strength. Its hard to strengthen a muscle group without doing exercises to strengthen it. Core exercises dont just help tone and sculpt six-pack abs! Core exercises are great for improving overall balance',price:20,img:'https://fitnesszonedev.wpengine.com/wp-content/uploads/2015/02/blog6.jpg'},
@@ -16,6 +17,7 @@ const Services = () => {
                 services.map(service =><Service key={service.id} service = {service}></Service>)
             }
         </div>
+        
         </div>
     );
 };

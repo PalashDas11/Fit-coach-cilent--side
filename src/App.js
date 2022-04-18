@@ -11,10 +11,11 @@ import NotFound from './component/Pages/NotFound/NotFound';
 import Register from './component/Pages/Register/Register';
 import Checkout from './component/Pages/Checkout/Checkout';
 import RequireAuth from './component/Pages/RequreAuth/RequireAuth';
+import Footer from './component/Pages/Footer/Footer';
 
 function App() {
   return (
-    <div className= "custom-bg">
+    <div>
     <Header></Header>
       <Routes>
         <Route path="/" element ={<Home></Home>}></Route>
@@ -32,6 +33,7 @@ function App() {
         <Route path ="*" element = {<NotFound></NotFound>}></Route>
         
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
