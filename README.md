@@ -1,14 +1,21 @@
-# Getting Started with Create React App
+# FitCoach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website live link [FitCoach](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+All Feature on this website:
+- It is gym trainer personal website
+- You can find training service from here what you want
+- This site has login and signup authentication system
+- Using firebase
+- Using bootstrap framwork
 
+Used on site-
+React-Libraries, React-Router, Firebase, React-'Bootstrap
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
